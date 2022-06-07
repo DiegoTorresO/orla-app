@@ -1,10 +1,7 @@
 .App {
   text-align: center;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,8 +10,11 @@
 }
 
 .App-header {
-  background: linear-gradient(#009de0c1, #009de0c1), url("./assets/background.png");
-  min-height: 100vh;
+  background-image: url("./assets/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Helvetica";
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;

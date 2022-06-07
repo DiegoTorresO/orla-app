@@ -12,10 +12,10 @@ export default function ButtonAppBar() {
       <AppBar position="static" color="grey">
         <Toolbar>
         <img src={logo}  height="30px"/>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 , ml:5}}>
             Orla para los alumnos del IES Azarquiel
           </Typography>
-          <Button color="inherit">Volver al inicio</Button>
+          <Button color="primary" variant='contained'>Volver al inicio</Button>
         </Toolbar>
       </AppBar>
     </Box>
